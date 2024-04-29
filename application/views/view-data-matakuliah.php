@@ -2,8 +2,9 @@
 
 <head>
     <title>Tampil Data Matakuliah</title>
-</head>
-
+    <link rel="stylesheet" type="text/css" 
+        href="http://localhost/pustaka-booking/assets/style_v_matakuliah.css">
+</head> 
 <body>
     <center>
         <table>
@@ -20,7 +21,7 @@
             </tr>
 
             <tr>
-                <th>Kode MTK</th>
+                <th>Kode Matakuliah</th>
                 <th>:</th>
                 <td>
                 <?= $kode; ?>
@@ -28,7 +29,7 @@
             </tr>
  
             <tr>
-                <td>Nama MTK</td>
+                <td>Nama Matakuliah</td>
                 <td>:</td>
                 <td>
                 <?= $nama; ?>

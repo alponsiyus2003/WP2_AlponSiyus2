@@ -23,4 +23,4 @@
             <li>Membuat musik/Composser Lagu</li>
             <li>Traveling</li>
         </ul>
-</section
+</section>
