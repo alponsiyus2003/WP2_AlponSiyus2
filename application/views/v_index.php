@@ -13,7 +13,7 @@
         controller.
     </p>
  
-    <ol type=”a”>
+    <ol type="A">
     <li>Model</li>
     <p align=’justify’>Model adalah kelas yang merepresentasikan atau 
         memodelkan tipe data yang akan digunakan oleh aplikasi. Model juga 
