@@ -5,7 +5,7 @@ class Matakuliah extends CI_Controller
     public function index() 
     { 
  
-        $this->load->view('form_matakuliah'); 
+        $this->load->view('view_form_matakuliah'); 
     } 
  
     public function cetak() 
@@ -27,7 +27,7 @@ class Matakuliah extends CI_Controller
                 ]);
          
         if ($this->form_validation->run() != true) { 
-            $this->load->view('form_matakuliah');
+            $this->load->view('view_form_matakuliah');
         } else { 
             $data = [ 
                 'kode' => $this->input->post('kode'), 

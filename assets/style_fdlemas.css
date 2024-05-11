@@ -1,0 +1,50 @@
+        body {
+            background-color: rgb(156, 209, 255);
+            font-family: 'Eagle Lake', serif;
+        }
+        
+        center {
+            margin-top: 50px;
+        }
+        
+        table {
+            width: 80vw;
+            max-width: 600px;
+            padding: 1em 1.5em;
+            background-color: #F2F2F2;
+            margin: 1em auto;
+            border-radius: 10px;
+        }
+        
+        th {
+            padding: 5px;
+            border-radius: 0px;
+            background-color: #00f874;
+            color: #000000;
+        }
+        
+        td {
+            padding: 1px;
+            background-color: #F2F2F2;
+        }
+        /* Style the radio buttons */
+        
+        input {
+            font-size: 20px;
+            padding: 2em 1.5em;
+            margin: 0.5em 0;
+        }
+        
+        input,
+        button {
+            display: block;
+            outline: none;
+            width: 100%;
+            padding: 0.5em;
+            border-radius: 0.3em;
+        }
+        
+        .invalid-feedback {
+            color: red;
+            margin-top: 5px;
+        }
